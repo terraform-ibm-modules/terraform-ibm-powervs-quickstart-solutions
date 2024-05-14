@@ -21,7 +21,7 @@ Solutions offered:
     - This solution is typically utilized for **PoCs, demos, and quick onboarding** to PowerVS Infrastructure.
 
 ## Reference architectures
-- [PowerVS Instance Variation]https://github.com/terraform-ibm-modules/terraform-ibm-powervs-quickstart-solutions/blob/main/reference-architectures/powervsi-with-vpc-landing-zone/deploy-arch-ibm-powervsi-with-vpc-landing-zone.svg)
+- [PowerVS Instance Variation](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-quickstart-solutions/blob/main/reference-architectures/powervsi-with-vpc-landing-zone/deploy-arch-ibm-powervsi-with-vpc-landing-zone.svg)
 
 ## Solutions
 | Variation  | Available on IBM Catalog  |  Requires IBM Schematics Workspace ID | Creates VPC Landing Zone | Performs VPC VSI OS Config | Creates PowerVS Infrastructure | Creates PowerVS Instance | Performs PowerVS OS Config |
