@@ -1,10 +1,10 @@
 version: "v1"
 CRA_TARGETS:
-  - CRA_TARGET: "solutions/full-stack"
+  - CRA_TARGET: "solutions/powervsi-with-vpc-landing-zone"
     PROFILE_ID: "bfacb71d-4b84-41ac-9825-e8a3a3eb7405" # SCC profile ID (currently set to IBM Cloud Framework for Financial Services 1.6.0 profile).
     CRA_IGNORE_RULES_FILE: "cra-tf-validate-ignore-rules.json"
     CRA_ENVIRONMENT_VARIABLES:
-      TF_VAR_prefix: "cra-infra"
+      TF_VAR_prefix: "cra-qs"
       TF_VAR_powervs_zone: "syd05"
       TF_VAR_powervs_resource_group_name: "Default"
       TF_VAR_external_access_ip: "0.0.0.0/0"
