@@ -196,6 +196,10 @@
                             "required": true
                         },
                         {
+                            "key": "client_to_site_vpn",
+                            "required": true
+                        },
+                        {
                             "key": "ssh_public_key",
                             "required": true,
                             "type": "multiline_secure_value",
@@ -480,7 +484,11 @@
                         "features": [
                             {
                                 "title": "Power Virtual Server Instance",
-                                "description": "Yes, 1 instance"
+                                "description": "1"
+                            },
+                            {
+                                "title": "Power Virtual Server Workspace",
+                                "description": "PowerVS Workspace with all required components"
                             },
                             {
                                 "title": "Number of VPCs",
@@ -491,24 +499,8 @@
                                 "description": "1"
                             },
                             {
-                                "title": "Separate VPC for management",
-                                "description": "No"
-                            },
-                            {
-                                "title": "Separate VPC for Internet Services",
-                                "description": "No"
-                            },
-                            {
-                                "title": "Separate VPC for Private Services",
-                                "description": "No"
-                            },
-                            {
                                 "title": "Increases security with Key Management",
                                 "description": "Yes"
-                            },
-                            {
-                                "title": "Power Virtual Server Workspace",
-                                "description": "PowerVS Workspace with all required components"
                             },
                             {
                                 "title": "Internet proxy on VPC",
@@ -516,13 +508,13 @@
                             },
                             {
                                 "title": "Additional management configurations on VPC",
-                                "description": "NFS server, NTP forwarder, and DNS forwarder reachable from PowerVS Workspace"
+                                "description": "NFS service, NTP forwarder, and DNS forwarder reachable from PowerVS Workspace"
                             }
                         ],
                         "diagrams": [
                             {
                                 "diagram": {
-                                    "caption": "Power Virtual Server with VPC landing zone 'quickstart' variation",
+                                    "caption": "Power Virtual Server with VPC landing zone 'PowerVS Instance' variation",
                                     "url": "https://raw.githubusercontent.com/terraform-ibm-modules/terraform-ibm-powervs-quickstart-solutions/main/reference-architectures/powervsi-with-vpc-landing-zone/deploy-arch-ibm-powervsi-with-vpc-landing-zone.svg",
                                     "type": "image/svg+xml"
                                 },
