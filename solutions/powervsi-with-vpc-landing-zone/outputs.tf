@@ -62,6 +62,11 @@ output "nfs_host_or_ip_path" {
   value       = module.powervs_vpc_landing_zone.nfs_host_or_ip_path
 }
 
+output "ansible_host_or_ip" {
+  description = "Central Ansible node private IP address."
+  value       = module.powervs_vpc_landing_zone.ansible_host_or_ip
+}
+
 
 ########################################################################
 # PowerVS Infrastructure outputs
