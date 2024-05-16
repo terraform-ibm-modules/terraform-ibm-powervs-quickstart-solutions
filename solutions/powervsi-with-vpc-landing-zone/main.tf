@@ -4,6 +4,7 @@
 
 module "powervs_vpc_landing_zone" {
   #source = "../../modules/powervs-vpc-landing-zone"
+  #version = ""
   source = "git::https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure//modules/powervs-vpc-landing-zone?ref=new_architecture"
 
   providers = { ibm.ibm-is = ibm.ibm-is, ibm.ibm-pi = ibm.ibm-pi }
@@ -22,7 +23,6 @@ module "powervs_vpc_landing_zone" {
   powervs_resource_group_name = var.powervs_resource_group_name
   powervs_management_network  = var.powervs_management_network
   powervs_backup_network      = var.powervs_backup_network
-  cloud_connection            = var.cloud_connection
   powervs_image_names         = [local.qs_tshirt_choice.image]
   tags                        = var.tags
 }
@@ -33,13 +33,13 @@ module "powervs_vpc_landing_zone" {
 #####################################################
 
 module "powervs_instance" {
-  source    = "terraform-ibm-modules/powervs-instance/ibm"
-  version   = "1.1.0"
+  source = "git::https://github.com/terraform-ibm-modules/terraform-ibm-powervs-instance.git?ref=ansible_host"
+  #source    = "terraform-ibm-modules/powervs-instance/ibm"
+  #version   = "1.1.0"
   providers = { ibm = ibm.ibm-pi }
 
-  pi_workspace_guid      = module.powervs_vpc_landing_zone.powervs_workspace_guid
-  pi_ssh_public_key_name = module.powervs_vpc_landing_zone.powervs_ssh_public_key.name
-
+  pi_workspace_guid          = module.powervs_vpc_landing_zone.powervs_workspace_guid
+  pi_ssh_public_key_name     = module.powervs_vpc_landing_zone.powervs_ssh_public_key.name
   pi_image_id                = local.pi_instance.pi_image_id
   pi_networks                = local.pi_instance.pi_networks
   pi_instance_name           = local.pi_instance.pi_instance_name
