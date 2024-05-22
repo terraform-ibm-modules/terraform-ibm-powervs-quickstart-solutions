@@ -1,0 +1,7 @@
+---
+- name: syd05
+  useForTest: true
+  testPriority: 1
+- name: eu-de-2
+  useForTest: true
+  testPriority: 2

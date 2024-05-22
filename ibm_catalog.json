@@ -1,0 +1,569 @@
+{
+    "products": [
+        {
+            "name": "deploy-arch-ibm-pvs-quickstart",
+            "label": "PowerVS Instance with VPC landing zone",
+            "product_kind": "solution",
+            "tags": [
+                "network_vpc",
+                "ibm_created",
+                "free",
+                "Technology",
+                "SoftwareAndPlatformApplications",
+                "target_terraform",
+                "terraform",
+                "reference_architecture",
+                "solution",
+                "support_ibm"
+            ],
+            "keywords": [
+                "power",
+                "sap",
+                "power solution",
+                "power infrastructure",
+                "powervs",
+                "power vs",
+                "power framework",
+                "sap power",
+                "automation",
+                "secure",
+                "networking",
+                "vertical scaling",
+                "scalable server",
+                "quickstart",
+                "quick"
+            ],
+            "short_description": "Builds PowerVS compute resources in a IBM Cloud® Power Virtual Server(PowerVS) infrastructure.",
+            "long_description": "IBM Cloud® Power Virtual Servers (PowerVS) is a public cloud offering that an enterprise can use to establish its own private IBM Power computing environment on shared public cloud infrastructure. PowerVS is logically isolated from all other public cloud tenants and infrastructure components, creating a private, secure place on the public cloud. This deployable architecture provides a framework to build a PowerVS offering according to the best practices and requirements from the IBM Cloud.",
+            "offering_docs_url": "https://cloud.ibm.com/docs/powervs-quickstart-solutions?topic=powervs-quickstart-automation-solutions-overview",
+            "offering_icon_url": "data:image/svg+xml;base64,PHN2ZyBpZD0iUG93ZXJJbmZyYXN0cnVjdHVyZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDMyIDMyIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Inc2aHpjbXV6amEiIHgxPSItMTg1NS4yMDgiIHkxPSItMjUwMi41NjMiIHgyPSItMTg1NS4yMDgiIHkyPSItMjUyMi4xNzkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMS4wNiAwIDAgLS40OTEgMTk3My42NzYgLTEyMjcuMjkzKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIvPjxzdG9wIG9mZnNldD0iLjgiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSI2dmZkbzMxaXNiIiB4MT0iMzI4LjUwMiIgeTE9Ii02NzY1LjY0NyIgeDI9IjMyOC41MDIiIHkyPSItNjc4NS4yNjMiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMS4wNiAwIDAgLjUxNSAtMzM5Ljk2NiAzNTEzLjI1KSIgeGxpbms6aHJlZj0iI3c2aHpjbXV6amEiLz48bGluZWFyR3JhZGllbnQgaWQ9ImJ0eDNhMG9vZ2MiIHgxPSItOTUzLjI2NiIgeTE9Ii0yODI4LjY1OSIgeDI9Ii05NTMuMjY2IiB5Mj0iLTI4MzguNTMzIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEuMDYgMCAwIC0uNjY5IDEwMzcuMjE4IC0xODc2LjQzOSkiIHhsaW5rOmhyZWY9IiN3Nmh6Y211emphIi8+PGxpbmVhckdyYWRpZW50IGlkPSI2NmhzYWNybDVkIiB4MT0iLTE5MjMuMjUiIHkxPSItMjYyMC4yOSIgeDI9Ii0xOTIzLjI1IiB5Mj0iLTI2MjcuODg0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEuMDYgMCAwIC42NjkgMjA0OC4wOTEgMTc4Mi4zNjQpIiB4bGluazpocmVmPSIjdzZoemNtdXpqYSIvPjxsaW5lYXJHcmFkaWVudCBpZD0idXp2YXRxaGhwZSIgeDE9Ii0xOTE1LjgwMiIgeTE9Ii0zMTkxLjI5NCIgeDI9Ii0xOTE1LjgwMiIgeTI9Ii0zMTk4Ljg4OSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLjA2IDAgMCAuNjY5IDIwNDMuNDggMjE0MS4xMjgpIiB4bGluazpocmVmPSIjdzZoemNtdXpqYSIvPjxsaW5lYXJHcmFkaWVudCBpZD0iZTFxMWF3ZXJxZyIgeDE9IjAiIHkxPSIzMiIgeDI9IjMyIiB5Mj0iMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iLjEiIHN0b3AtY29sb3I9IiMwOGJkYmEiLz48c3RvcCBvZmZzZXQ9Ii45IiBzdG9wLWNvbG9yPSIjMGY2MmZlIi8+PC9saW5lYXJHcmFkaWVudD48bWFzayBpZD0idnZmcnV4eXl1ZiIgeD0iMCIgeT0iMCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNMTUuOTgyIDMwYy03LjcyIDAtMTQtNi4yOC0xNC0xNHM2LjI4MS0xNCAxNC0xNCAxNCA2LjI4IDE0IDE0LTYuMjggMTQtMTQgMTR6bTAtMjZjLTYuNjE3IDAtMTIgNS4zODMtMTIgMTJzNS4zODMgMTIgMTIgMTIgMTItNS4zODMgMTItMTItNS4zODMtMTItMTItMTJ6IiBzdHlsZT0iZmlsbDojZmZmIi8+PHBhdGggZD0iTTMwLjY5MSAzMC43MDhIMTEuNzI5bDMtOC43MDggMTAuNDY1LjAxMSA1LjU3Ny0uMDIxLS4wOCA4LjcxOHpNNi45ODIgMjBsLTYgNS40OTRWNi44MDdsNiA1LjAxNVYyMHpNMTYuMDAzIDFoMTQuOTk5djEzLjAzMkgxNi4wMDN6Ii8+PHBhdGggdHJhbnNmb3JtPSJyb3RhdGUoLTEzNSA3Ljk0MyA2Ljc4NykiIHN0eWxlPSJmaWxsOnVybCgjdzZoemNtdXpqYSkiIGQ9Ik00Ljc2NCAxLjk3aDYuMzU3djkuNjM1SDQuNzY0eiIvPjxwYXRoIHRyYW5zZm9ybT0icm90YXRlKDEzNSA4LjEwNiAyNS4zNDQpIiBzdHlsZT0iZmlsbDp1cmwoIzZ2ZmRvMzFpc2IpIiBkPSJNNC45MjggMjAuMjk1aDYuMzU3djEwLjA5OEg0LjkyOHoiLz48cGF0aCB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMjcuMTYxIDE4Ljg2MykiIHN0eWxlPSJmaWxsOnVybCgjYnR4M2Ewb29nYykiIGQ9Ik0yMy45ODIgMTUuNTYxaDYuMzU3djYuNjA0aC02LjM1N3oiLz48cGF0aCB0cmFuc2Zvcm09InJvdGF0ZSgtNzAuNzkgMTAuMjYyIDI3LjE5NSkiIHN0eWxlPSJmaWxsOnVybCgjNjZoc2Fjcmw1ZCkiIGQ9Ik03LjA4NCAyNC42NTVoNi4zNTd2NS4wOEg3LjA4NHoiLz48cGF0aCBkPSJNOC45ODIgMjAuOThoLTZjLTEuMTAzIDAtMi0uODk3LTItMnYtNmMwLTEuMTAzLjg5Ny0yIDItMmg2YzEuMTAzIDAgMiAuODk3IDIgMnY2YzAgMS4xMDMtLjg5NyAyLTIgMnptLTYtOHY2aDYuMDAxdi02SDIuOTgyeiIgc3R5bGU9ImZpbGw6I2ZmZiIvPjxwYXRoIHRyYW5zZm9ybT0icm90YXRlKC05MCAxMy41NDMgNC4wMzIpIiBzdHlsZT0iZmlsbDp1cmwoI3V6dmF0cWhocGUpIiBkPSJNMTAuMzY0IDEuNDkyaDYuMzU3djUuMDhoLTYuMzU3eiIvPjxwYXRoIGQ9Ik0yNy4zMDQgNy4xMzRjMC0uMzctLjA2Ny0uNzIxLS4xNjEtMS4wNjJMMjkgNWwtMS0xLjczMi0xLjg0NyAxLjA2NmEzLjk5MSAzLjk5MSAwIDAgMC0xLjg0OS0xLjA1OFYxLjEzNGgtMnYyLjE0MmEzLjk5MSAzLjk5MSAwIDAgMC0xLjg0OSAxLjA1OGwtMS44NDctMS4wNjYtMSAxLjczMiAxLjg1NyAxLjA3MmMtLjA5NC4zNC0uMTYxLjY5Mi0uMTYxIDEuMDYycy4wNjcuNzIxLjE2MSAxLjA2MmwtMS44NTcgMS4wNzIgMSAxLjczMiAxLjg0Ny0xLjA2NmMuNS41MDkgMS4xMzguODczIDEuODQ5IDEuMDU4djIuMTQyaDJ2LTIuMTQyYTMuOTkxIDMuOTkxIDAgMCAwIDEuODQ5LTEuMDU4TDI4IDExbDEtMS43MzItMS44NTctMS4wNzJjLjA5NC0uMzQuMTYxLS42OTIuMTYxLTEuMDYyem0tNCAyYy0xLjEwMyAwLTItLjg5Ny0yLTJzLjg5Ny0yIDItMiAyIC44OTcgMiAyLS44OTcgMi0yIDJ6IiBzdHlsZT0iZmlsbDojZmZmIi8+PC9tYXNrPjwvZGVmcz48ZyBzdHlsZT0ibWFzazp1cmwoI3Z2ZnJ1eHl5dWYpIj48cGF0aCBzdHlsZT0iZmlsbDp1cmwoI2UxcTFhd2VycWcpIiBkPSJNMCAwaDMydjMySDB6Ii8+PC9nPjxwYXRoIGQ9Ik0yOS4wMDIgMzFoLTEzYy0xLjEwMyAwLTItLjg5Ny0yLTJ2LTRjMC0xLjEwMy44OTctMiAyLTJoMTNjMS4xMDMgMCAyIC44OTcgMiAydjRjMCAxLjEwMy0uODk3IDItMiAyem0tMTMtNnY0aDEzLjAwMXYtNEgxNi4wMDJ6IiBzdHlsZT0iZmlsbDojMDAxZDZjIi8+PGNpcmNsZSBjeD0iMTkuMDAyIiBjeT0iMjciIHI9IjEiIHN0eWxlPSJmaWxsOiMwMDFkNmMiLz48L3N2Zz4=",
+            "features": [
+                {
+                    "description": "VPC services (landing zone)",
+                    "title": "Edge VPC services are created using VSI on VPC landing zone presets."
+                },
+                {
+                    "description": "Power Virtual Server workspaces",
+                    "title": "One PowerVS workspace is created by initial deployment"
+                },
+                {
+                    "description": "Network management services",
+                    "title": "Bastion host, internet proxy based on SQUID, NTP forwarder, DNS forwarder, NFS as a service and central ansbile node."
+                },
+                {
+                    "description": "Client to site VPN",
+                    "title": "Optionally Client to site VPN can be deployed as part of this deployment."
+                }
+            ],
+            "flavors": [
+                {
+                    "label": "PowerVS Instance",
+                    "name": "powervs-instance",
+                    "install_type": "fullstack",
+                    "index": 0,
+                    "working_directory": "solutions/powervsi-with-vpc-landing-zone",
+                    "compliance": {
+                        "authority": "scc-v3",
+                        "profiles": [
+                            {
+                                "profile_name": "IBM Cloud Framework for Financial Services",
+                                "profile_version": "1.6.0"
+                            }
+                        ]
+                    },
+                    "configuration": [
+                        {
+                            "key": "powervs_zone",
+                            "type": "string",
+                            "default_value": "",
+                            "required": true,
+                            "options": [
+                                {
+                                    "displayname": "Dallas (dallas)",
+                                    "value": "us-south"
+                                },
+                                {
+                                    "displayname": "Dallas 10 (dal10) PER",
+                                    "value": "dal10"
+                                },
+                                {
+                                    "displayname": "Dallas 12 (dal12) PER",
+                                    "value": "dal12"
+                                },
+                                {
+                                    "displayname": "Frankfurt 1 (eu-de-1) PER",
+                                    "value": "eu-de-1"
+                                },
+                                {
+                                    "displayname": "Frankfurt 2 (eu-de-2) PER",
+                                    "value": "eu-de-2"
+                                },
+                                {
+                                    "displayname": "London 04 (lon04)",
+                                    "value": "lon04"
+                                },
+                                {
+                                    "displayname": "London 06 (lon06) PER",
+                                    "value": "lon06"
+                                },
+                                {
+                                    "displayname": "Montreal 01 (mon01)",
+                                    "value": "mon01"
+                                },
+                                {
+                                    "displayname": "Osaka 21 (osa21) PER",
+                                    "value": "osa21"
+                                },
+                                {
+                                    "displayname": "Sao Paulo 01 (sao01) PER",
+                                    "value": "sao01"
+                                },
+                                {
+                                    "displayname": "Sao Paulo 04 (sao04) PER",
+                                    "value": "sao04"
+                                },
+                                {
+                                    "displayname": "Sydney 04 (syd04) PER",
+                                    "value": "syd04"
+                                },
+                                {
+                                    "displayname": "Sydney 05 (syd05) PER",
+                                    "value": "syd05"
+                                },
+                                {
+                                    "displayname": "Tokyo 04 (tok04) PER",
+                                    "value": "tok04"
+                                },
+                                {
+                                    "displayname": "Toronto 01 (tor01)",
+                                    "value": "tor01"
+                                },
+                                {
+                                    "displayname": "Washington DC (us-east)",
+                                    "value": "us-east"
+                                },
+                                {
+                                    "displayname": "Washington DC 06 (wdc06) PER",
+                                    "value": "wdc06"
+                                },
+                                {
+                                    "displayname": "Washington DC 07 (wdc07) PER",
+                                    "value": "wdc07"
+                                }
+                            ],
+                            "custom_config": {}
+                        },
+                        {
+                            "key": "prefix",
+                            "default_value": "",
+                            "required": true
+                        },
+                        {
+                            "key": "tshirt_size",
+                            "type": "string",
+                            "default_value": "",
+                            "required": true,
+                            "options": [
+                                {
+                                    "displayname": "Custom (Configure in optional parameters)",
+                                    "value": "custom"
+                                },
+                                {
+                                    "displayname": "AIX - XS (1cpu,32GB,disk-100GB,7300-02-01)",
+                                    "value": "aix_xs"
+                                },
+                                {
+                                    "displayname": "AIX - S (4cpu,128GB,disk-500GB,7300-02-01)",
+                                    "value": "aix_s"
+                                },
+                                {
+                                    "displayname": "AIX - M (8cpu,256GB,disk-1000GB,7300-02-01)",
+                                    "value": "aix_m"
+                                },
+                                {
+                                    "displayname": "AIX - L (14cpu,512GB,disk-2000GB,7300-02-01)",
+                                    "value": "aix_l"
+                                },
+                                {
+                                    "displayname": "IBM i - XS (0.25cpu,8GB,disk-100GB,IBMi-75-03-2924-1)",
+                                    "value": "ibm_i_xs"
+                                },
+                                {
+                                    "displayname": "IBM i - S (1cpu,32GB,disk-500GB,IBMi-75-03-2924-1)",
+                                    "value": "ibm_i_s"
+                                },
+                                {
+                                    "displayname": "IBM i - M (2cpu,64GB,disk-1000GB,IBMi-75-03-2924-1)",
+                                    "value": "ibm_i_m"
+                                },
+                                {
+                                    "displayname": "IBM i - L (4cpu,132GB,disk-2000GB,IBMi-75-03-2924-1)",
+                                    "value": "ibm_i_l"
+                                },
+                                {
+                                    "displayname": "SAP DEV (ush1-4x128,disk-750GB,RHEL9-SP2-SAP)",
+                                    "value": "sap_dev"
+                                },
+                                {
+                                    "displayname": "SAP DEV SLES (ush1-4x128,disk-750GB,SLES15-SP5-SAP)",
+                                    "value": "sap_dev_sles"
+                                }
+                            ],
+                            "custom_config": {}
+                        },
+                        {
+                            "key": "external_access_ip",
+                            "default_value": "",
+                            "required": true
+                        },
+                        {
+                            "key": "client_to_site_vpn",
+                            "required": true
+                        },
+                        {
+                            "key": "ssh_public_key",
+                            "required": true,
+                            "type": "multiline_secure_value",
+                            "display_name": "Multiline secure value",
+                            "custom_config": {
+                                "grouping": "deployment",
+                                "original_grouping": "deployment",
+                                "type": "multiline_secure_value"
+                            }
+                        },
+                        {
+                            "key": "ssh_private_key",
+                            "required": true,
+                            "type": "multiline_secure_value",
+                            "display_name": "Multiline secure value",
+                            "custom_config": {
+                                "grouping": "deployment",
+                                "original_grouping": "deployment",
+                                "type": "multiline_secure_value"
+                            }
+                        },
+                        {
+                            "key": "ibmcloud_api_key",
+                            "type": "multiline_secure_value",
+                            "display_name": "Multiline secure value",
+                            "required": true,
+                            "custom_config": {
+                                "grouping": "deployment",
+                                "original_grouping": "deployment",
+                                "type": "multiline_secure_value"
+                            }
+                        },
+                        {
+                            "key": "powervs_resource_group_name",
+                            "required": true,
+                            "default_value": "",
+                            "custom_config": {
+                                "config_constraints": {
+                                    "identifier": "rg_name"
+                                },
+                                "grouping": "deployment",
+                                "original_grouping": "deployment",
+                                "type": "resource_group"
+                            }
+                        },
+                        {
+                            "key": "custom_profile_instance_boot_image",
+                            "type": "string",
+                            "default_value": "none",
+                            "options": [
+                                {
+                                    "displayname": "None",
+                                    "value": "none"
+                                },
+                                {
+                                    "displayname": "AIX - 7300-02-01",
+                                    "value": "7300-02-01"
+                                },
+                                {
+                                    "displayname": "AIX - 7200-05-07",
+                                    "value": "7200-05-07"
+                                },
+                                {
+                                    "displayname": "AIX - 7100-05-09",
+                                    "value": "7100-05-09"
+                                },
+                                {
+                                    "displayname": "IBM i - IBMi-75-03-2924-1",
+                                    "value": "IBMi-75-03-2924-1"
+                                },
+                                {
+                                    "displayname": "IBM i - IBMi-75-03-2984-1",
+                                    "value": "IBMi-75-03-2984-1"
+                                },
+                                {
+                                    "displayname": "IBM i - IBMi-74-09-2984-1",
+                                    "value": "IBMi-74-09-2984-1"
+                                },
+                                {
+                                    "displayname": "IBM i - IBMi_COR-74-09-1",
+                                    "value": "IBMi_COR-74-09-1"
+                                },
+                                {
+                                    "displayname": "SAP - RHEL9-SP2-SAP",
+                                    "value": "RHEL9-SP2-SAP"
+                                },
+                                {
+                                    "displayname": "SAP - RHEL9-SP2-SAP-NETWEAVER",
+                                    "value": "RHEL9-SP2-SAP-NETWEAVER"
+                                },
+                                {
+                                    "displayname": "SAP - RHEL8-SP8-SAP",
+                                    "value": "RHEL8-SP8-SAP"
+                                },
+                                {
+                                    "displayname": "SAP - RHEL8-SP8-SAP-NETWEAVER",
+                                    "value": "RHEL8-SP8-SAP-NETWEAVER"
+                                },
+                                {
+                                    "displayname": "SAP - SLES15-SP5-SAP",
+                                    "value": "SLES15-SP5-SAP"
+                                },
+                                {
+                                    "displayname": "SAP - SLES15-SP5-SAP-NETWEAVER",
+                                    "value": "SLES15-SP5-SAP-NETWEAVER"
+                                },
+                                {
+                                    "displayname": "SAP - SLES15-SP4-SAP",
+                                    "value": "SLES15-SP4-SAP"
+                                },
+                                {
+                                    "displayname": "SAP - SLES15-SP4-SAP-NETWEAVER",
+                                    "value": "SLES15-SP4-SAP-NETWEAVER"
+                                }
+                            ],
+                            "custom_config": {}
+                        },
+                        {
+                            "key": "custom_profile",
+                            "custom_config": {
+                                "grouping": "deployment",
+                                "original_grouping": "deployment",
+                                "type": "json_editor"
+                            }
+                        },
+                        {
+                            "key": "configure_dns_forwarder"
+                        },
+                        {
+                            "key": "configure_ntp_forwarder"
+                        },
+                        {
+                            "key": "configure_nfs_server"
+                        },
+                        {
+                            "key": "dns_forwarder_config"
+                        },
+                        {
+                            "key": "nfs_server_config"
+                        },
+                        {
+                            "key": "powervs_management_network"
+                        },
+                        {
+                            "key": "powervs_backup_network"
+                        },
+                        {
+                            "key": "tags"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "key": "prefix"
+                        },
+                        {
+                            "key": "vpc_names"
+                        },
+                        {
+                            "key": "vsi_names"
+                        },
+                        {
+                            "key": "ssh_public_key"
+                        },
+                        {
+                            "key": "transit_gateway_name"
+                        },
+                        {
+                            "key": "transit_gateway_id"
+                        },
+                        {
+                            "key": "vsi_list"
+                        },
+                        {
+                            "key": "resource_group_data"
+                        },
+                        {
+                            "key": "access_host_or_ip"
+                        },
+                        {
+                            "key": "proxy_host_or_ip_port"
+                        },
+                        {
+                            "key": "dns_host_or_ip"
+                        },
+                        {
+                            "key": "ntp_host_or_ip"
+                        },
+                        {
+                            "key": "nfs_host_or_ip_path"
+                        },
+                        {
+                            "key": "ansible_host_or_ip"
+                        },
+                        {
+                            "key": "network_services_config"
+                        },
+                        {
+                            "key": "powervs_zone"
+                        },
+                        {
+                            "key": "powervs_resource_group_name"
+                        },
+                        {
+                            "key": "powervs_workspace_name"
+                        },
+                        {
+                            "key": "powervs_workspace_id"
+                        },
+                        {
+                            "key": "powervs_workspace_guid"
+                        },
+                        {
+                            "key": "powervs_ssh_public_key"
+                        },
+                        {
+                            "key": "powervs_management_subnet"
+                        },
+                        {
+                            "key": "powervs_backup_subnet"
+                        },
+                        {
+                            "key": "powervs_images"
+                        },
+                        {
+                            "key": "powervs_instance_management_ip"
+                        },
+                        {
+                            "key": "powervs_instance_private_ips"
+                        },
+                        {
+                            "key": "powervs_storage_configuration"
+                        },
+                        {
+                            "key": "schematics_workspace_id"
+                        }
+                    ],
+                    "iam_permissions": [
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                            ],
+                            "service_name": "appid"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                            ],
+                            "service_name": "cloud-object-storage"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                            ],
+                            "service_name": "hs-crypto"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::role:Administrator"
+                            ],
+                            "service_name": "iam-identity"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                            ],
+                            "service_name": "kms"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                                "crn:v1:bluemix:public:iam::::role:Administrator"
+                            ],
+                            "service_name": "is.vpc"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::role:Editor"
+                            ],
+                            "service_name": "is.vpc"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::role:Editor"
+                            ],
+                            "service_name": "transit.gateway"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::role:Editor"
+                            ],
+                            "service_name": "directlink.connect"
+                        },
+                        {
+                            "role_crns": [
+                                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                            ],
+                            "service_name": "power-iaas"
+                        }
+                    ],
+                    "architecture": {
+                        "features": [
+                            {
+                                "title": "Power Virtual Server Instance",
+                                "description": "1"
+                            },
+                            {
+                                "title": "Power Virtual Server Workspace",
+                                "description": "PowerVS Workspace with all required components"
+                            },
+                            {
+                                "title": "Number of VPCs",
+                                "description": "1"
+                            },
+                            {
+                                "title": "Number of Intel VSIs",
+                                "description": "1"
+                            },
+                            {
+                                "title": "Increases security with Key Management",
+                                "description": "Yes"
+                            },
+                            {
+                                "title": "Internet proxy on VPC",
+                                "description": "Proxy service to reach public internet from PowerVS Workspace"
+                            },
+                            {
+                                "title": "Additional management configurations on VPC",
+                                "description": "NFS service, NTP forwarder, and DNS forwarder reachable from PowerVS Workspace"
+                            }
+                        ],
+                        "diagrams": [
+                            {
+                                "diagram": {
+                                    "caption": "Power Virtual Server with VPC landing zone 'PowerVS Instance' variation",
+                                    "url": "https://raw.githubusercontent.com/terraform-ibm-modules/terraform-ibm-powervs-quickstart-solutions/main/reference-architectures/powervsi-with-vpc-landing-zone/deploy-arch-ibm-powervsi-with-vpc-landing-zone.svg",
+                                    "type": "image/svg+xml"
+                                },
+                                "description": "The PowerVS Instance with VPC landing zone as 'PowerVS Instance' variation of 'Create a new architecture' option deploys VPC services and a Power Virtual Server workspace and interconnects them. It also creates one Power virtual server instance of chosen t-shirt size or custom configuration.\n \nRequired and optional management components are configured."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
