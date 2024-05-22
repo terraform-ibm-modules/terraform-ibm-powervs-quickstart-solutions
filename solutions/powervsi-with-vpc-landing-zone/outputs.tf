@@ -37,6 +37,11 @@ output "vsi_list" {
   value       = module.powervs_vpc_landing_zone.vsi_list
 }
 
+output "resource_group_data" {
+  description = "List of resource groups data used within landing zone."
+  value       = module.powervs_vpc_landing_zone.resource_group_data
+}
+
 output "access_host_or_ip" {
   description = "Access host(jump/bastion) for created PowerVS infrastructure."
   value       = module.powervs_vpc_landing_zone.access_host_or_ip
@@ -67,6 +72,10 @@ output "ansible_host_or_ip" {
   value       = module.powervs_vpc_landing_zone.ansible_host_or_ip
 }
 
+output "network_services_config" {
+  description = "Complete configuration of network management services."
+  value       = module.powervs_vpc_landing_zone.network_services_config
+}
 
 ########################################################################
 # PowerVS Infrastructure outputs
@@ -115,11 +124,6 @@ output "powervs_backup_subnet" {
 output "powervs_images" {
   description = "Object containing imported PowerVS image names and image ids."
   value       = module.powervs_vpc_landing_zone.powervs_images
-}
-
-output "cloud_connection_count" {
-  description = "Number of cloud connections configured in created PowerVS infrastructure."
-  value       = module.powervs_vpc_landing_zone.cloud_connection_count
 }
 
 
