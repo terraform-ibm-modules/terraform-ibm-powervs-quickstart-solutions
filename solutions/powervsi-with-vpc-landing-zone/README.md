@@ -47,8 +47,8 @@ This example sets up the following infrastructure:
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_powervs_instance"></a> [powervs\_instance](#module\_powervs\_instance) | terraform-ibm-modules/powervs-instance/ibm | 2.0.0 |
-| <a name="module_powervs_vpc_landing_zone"></a> [powervs\_vpc\_landing\_zone](#module\_powervs\_vpc\_landing\_zone) | terraform-ibm-modules/powervs-infrastructure/ibm//modules//powervs-vpc-landing-zone | 5.0.1 |
+| <a name="module_powervs_instance"></a> [powervs\_instance](#module\_powervs\_instance) | terraform-ibm-modules/powervs-instance/ibm | 2.0.1 |
+| <a name="module_powervs_vpc_landing_zone"></a> [powervs\_vpc\_landing\_zone](#module\_powervs\_vpc\_landing\_zone) | terraform-ibm-modules/powervs-infrastructure/ibm//modules//powervs-vpc-landing-zone | 5.2.1 |
 
 ### Resources
 
