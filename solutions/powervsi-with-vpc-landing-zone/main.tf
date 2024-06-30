@@ -4,7 +4,7 @@
 
 module "powervs_vpc_landing_zone" {
   source  = "terraform-ibm-modules/powervs-infrastructure/ibm//modules//powervs-vpc-landing-zone"
-  version = "5.0.1"
+  version = "5.2.1"
 
   providers = { ibm.ibm-is = ibm.ibm-is, ibm.ibm-pi = ibm.ibm-pi }
 
@@ -33,7 +33,7 @@ module "powervs_vpc_landing_zone" {
 
 module "powervs_instance" {
   source    = "terraform-ibm-modules/powervs-instance/ibm"
-  version   = "2.0.0"
+  version   = "2.0.1"
   providers = { ibm = ibm.ibm-pi }
 
   pi_workspace_guid      = module.powervs_vpc_landing_zone.powervs_workspace_guid
